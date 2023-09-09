@@ -1,0 +1,130 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background:rgb(3, 3, 71);
+
+}
+.text{
+   display:inline;
+   justify-content: center;
+   text-align: center;
+   align-items: center;
+   margin-bottom:15%;
+   
+}
+
+
+
+.datetime{
+  color: #fff;
+  background: rgb(3, 3, 71);
+  font-family: "Segoe UI", sans-serif;
+  width: 340px;
+  height: 140px;
+  padding: 15px 10px;
+  border: 3px solid #2E94E3;
+  border-radius: 5px;
+  -webkit-box-reflect: below 1px linear-gradient(transparent, rgba(255, 255, 255, 0.1));
+  transition: 0.5s;
+  
+}
+
+#dayname{
+  color:white;
+  background-color:red;
+  border-radius: 8%;
+  padding: 5px;
+
+}
+#dayname:hover{
+    color:blue;
+    background-color:red;
+}
+#month{
+  color:white;
+  background-color:red;
+  border-radius: 8%;
+  padding: 5px;
+
+}
+#month:hover{
+    color:blue;
+    background-color:red;
+}
+#daynum{
+  color:white;
+  background-color:red;
+  border-radius: 8%;
+  padding: 5px;
+
+}
+#daynum:hover{
+    color:blue;
+    background-color:red;
+}
+
+#year{
+  color:white;
+  background-color:red;
+  border-radius: 8%;
+  padding: 5px;
+
+}
+#year:hover{
+    color:blue;
+    background-color:red;
+}
+
+.datetime:hover{
+  background: #2E94E3;
+  box-shadow: 0 0 30px #2E94E3;
+}
+
+.date{
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: 3px;
+  
+}
+
+.time{
+  background-color: blue;
+  border: 2px solid blue;
+  border-radius: 10%;
+  font-size: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 7%;
+  
+}
+
+.time span:not(:last-child){
+  position: relative;
+  margin: 0 6px;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: 3px;
+}
+
+.time span:last-child{
+  background: #f50404;
+  font-size: 25px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-top: 10px;
+  padding: 0 5px;
+  border-radius: 5px;
+}
+.time span:last-child:hover{
+  color:blue;
+  background-color:red;
+}
